@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#div1 {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+}
+
+#logo-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: transparent;
+    padding-left: 2%;
+    line-height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#nav-div {
+    width: 100%;
+    min-height: 30px;
+    background-color: orange;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#header-banner-div {
+    width: 100%;
+    min-height: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+    background: url(k.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+#main-div {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+#sidebar-div {
+    width: 20%;
+    min-height: 700px;
+    background-color: grey;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+    background: url(sp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bodyarea-div {
+    width: 75%;
+    min-height: 700px;
+    background-color: lightcyan;
+    float: right;
+    line-height: 400px;
+    text-align: center;
+    background: url(q.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#wrapper-div {
+
+    margin: auto;
+}

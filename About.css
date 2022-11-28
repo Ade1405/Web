@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: url(blur.jpg);
+    background-blend-mode: normal;
+}
+
+.about-me {
+    width: 100%;
+}
+
+.about-me h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #2b9ec2;
+    text-transform: uppercase;
+    letter-spacing: 1.5;
+    margin-top: 50px;
+}
+
+.about-me h1::after {
+    content: "";
+    height: 5px;
+    width: 200px;
+    background-color: #2b9ec2;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.wrapper {
+    padding: 0px 60px;
+    margin: 60px auto;
+}
+
+.content {
+    width: 60%;
+    float: left;
+    text-align: left;
+    padding: 0px 30px;
+}
+
+.content h3 {
+    color: #222;
+    letter-spacing: 1px;
+}
+
+.content p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    color: #3d3d3d;
+    margin-top: 20px;
+}
+
+.content .button {
+    margin-top: 40px;
+}
+
+.content .button a {
+    color: #fff;
+    background-color: #2b9ec2;
+    border: 1px solid #2b9ec2;
+    padding: 10px 35px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.content .button a:hover {
+    background-color: #fff;
+    color: #2b9ec2;
+}
+
+.image-section {
+    width: 40%;
+    float: right;
+    padding: 10px 60px;
+}
+
+.image-section img {
+    max-width: 800px;
+    height: auto;
+}
